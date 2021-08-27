@@ -11,6 +11,7 @@ class WeatherAdapter : RecyclerView.Adapter<WeatherViewHolder>() {
     private val forecasts = mutableListOf<Forecast>()
 
     fun addWeather(forecasts: List<Forecast>) {
+        this.forecasts.clear()
         this.forecasts.addAll(forecasts)
         notifyDataSetChanged()
     }
