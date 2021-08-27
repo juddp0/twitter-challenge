@@ -2,4 +2,11 @@
     <string name="app_name">Tweather</string>
     <string name="current_temperature">Current temperature</string>
     <string name="temperature">%1$f °C / %2$f °F</string>
+
+    <!-- Future Forecasts -->
+    <string name="future_forecast_label">Future Forecast</string>
+    <string name="future_standard_deviation">Standard Deviation: %1$.2f</string>
+
+    <!-- Errors -->
+    <string name="weather_fetch_error">Couldn\'t get a response. Please try again.</string>
 </resources>

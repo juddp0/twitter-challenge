@@ -44,6 +44,10 @@ dependencies {
             deps.retrofit.core,
             deps.retrofit.converter
     )
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.assertj:assertj-core:2.5.0'
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.2'
+    testImplementation 'androidx.arch.core:core-testing:2.1.0'
+    testImplementation 'io.mockk:mockk:1.12.0'
 }

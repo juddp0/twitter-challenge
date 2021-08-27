@@ -9,5 +9,5 @@ data class WeatherResponse(
         val wind: Wind,
         val rain: Rain,
         val clouds: Clouds,
-        val name: String
+        val name: String = ""
 )

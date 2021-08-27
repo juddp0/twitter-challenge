@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins -->
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+
+
+    <!-- Weather Row -->
+    <dimen name="weather_row_height">120dp</dimen>
+    <dimen name="weather_row_image_height">60dp</dimen>
+    <dimen name="weather_row_image_width">60dp</dimen>
+
+    <!-- Stand Dev -->
+    <dimen name="standard_deviation_layout_height">120dp</dimen>
+</resources>
